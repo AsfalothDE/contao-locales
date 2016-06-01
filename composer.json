@@ -1,0 +1,26 @@
+{
+    "name": "asfaloth-de/contao-locales",
+    "description": "Set locales for a page tree",
+    "keywords": ["contao", "extension", "usability"],
+    "type": "contao-module",
+    "license": "LGPL-3.0+",
+    "homepage": "http://www.silviaulenberg.de",
+    "authors": [
+    	{
+    		"name": "Silvia Ulenberg",
+    		"email": "kontakt@silviaulenberg.de"
+    	}
+    ],
+    "require": {
+        "php": ">=5.3",
+        "contao/core": ">=3.1,<=3.5",
+		"contao-community-alliance/composer-plugin": "~2.0"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "module": "TL_ROOT/system/modules/locales"
+            }
+        }
+    }
+}
