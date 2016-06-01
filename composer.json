@@ -19,7 +19,7 @@
     "extra": {
         "contao": {
             "sources": {
-                "module": "TL_ROOT/system/modules/locales"
+                "TL_ROOT/system/modules/locales": "system/modules/locales"
             }
         }
     }
