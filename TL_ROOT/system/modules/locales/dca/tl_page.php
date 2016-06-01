@@ -46,8 +46,6 @@ class my_tl_page extends tl_page
 
 		$arrOptions = array();
 
-		echo locale_get_default();
-
 		$locales = shell_exec('locale -a');
 		$arrLocales = explode("\n", $locales);
 
@@ -58,8 +56,6 @@ class my_tl_page extends tl_page
 				$arrOptions[] = $locale;
 			}
 		}
-
-		print_r($arrOptions);
 
 		return $arrOptions;
 	}
