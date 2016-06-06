@@ -28,7 +28,7 @@ $GLOBALS['TL_DCA']['tl_page']['fields']['locale'] = array(
 	(
 		array('tl_page', 'checkRootType')
 	),*/
-	'sql'                     => "varchar(10) NOT NULL default ''"
+	'sql'                     => "varchar(20) NOT NULL default ''"
 );
 
 /**
